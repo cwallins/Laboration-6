@@ -1,6 +1,9 @@
 import MovieForm from './movieForm';
 import Movies from './movies';
 import SaveMovieButton from './saveMovieButton';
+import OrderByAlpha from './orderByAlpha';
+import OrderByGrade from './orderByGrade';
+
 
 
 function App() {
@@ -11,6 +14,8 @@ function App() {
       <MovieForm/>
       <Movies/>
       <SaveMovieButton/>
+      <OrderByAlpha/>
+      <OrderByGrade/>
     </div>
   );
 }
