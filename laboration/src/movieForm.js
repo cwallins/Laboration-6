@@ -1,6 +1,6 @@
-import React, { useState, useRef} from 'react';
+import React, { useState, useRef } from 'react';
 
-export default function MovieList() {
+export default function MovieForm() {
     return (
         <div>
             <label for="title-field">Titel:</label>
@@ -16,15 +16,7 @@ export default function MovieList() {
                 <option value="5">5</option>
             </select>
 
-            <input type="submit" class="btn btn-success mt-3" value="Spara film"></input>
-
             <hr></hr>
-
-            <h2>Filmer</h2>
-            <ul id="movies">
-                
-            </ul>
-
 
         </div>
     )

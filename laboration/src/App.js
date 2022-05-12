@@ -1,4 +1,6 @@
-import MovieList from './movieList';
+import MovieForm from './movieForm';
+import Movies from './movies';
+import SaveMovieButton from './saveMovieButton';
 
 
 function App() {
@@ -6,7 +8,9 @@ function App() {
     <div className="App">
       <h1>Min filmlista</h1>
       <h2>Lägg till en film</h2>
-      <MovieList/>
+      <MovieForm/>
+      <Movies/>
+      <SaveMovieButton/>
     </div>
   );
 }
