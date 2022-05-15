@@ -5,7 +5,7 @@ function App() {
     <div>
       <h1>MovieList</h1>
       <h4>Lägg till en film</h4>
-      <hr></hr>
+      <hr/>
       <MovieList />
     </div>
   );
