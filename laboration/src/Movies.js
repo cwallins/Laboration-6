@@ -1,16 +1,9 @@
-import React, { useState, useRef} from "react";
-import OrderByAlphaBtn from "./OrderByAlphaBtn";
-import OrderByGradeBtn from "./OrderByGradeBtn";
-import App from "./App";
+import React from "react";
 
-export default function Movies() {
+export default function Movies(props) {
     return (
-        <div>
-            <h4>Filmer</h4>
-            <OrderByAlphaBtn/> <OrderByGradeBtn/>
-            <ul id="movies">
-
-            </ul>
-        </div>
+        <li className="list-group-item">
+            { props.item.title}
+        </li>
     );
 }
